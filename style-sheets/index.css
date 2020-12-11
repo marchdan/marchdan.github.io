@@ -1,0 +1,45 @@
+body{
+	background-color: DarkOliveGreen;
+	font-size: 14;
+	color: black;
+}
+
+header{
+	text-align: center;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.landing-page{
+	overflow: hidden;
+	display: block;
+	position: relative;
+	font-size: 18px;
+}
+
+.info{
+	width: 50%;
+	float: left;
+	height: 100%;
+	position: relative;
+}
+.bio{
+	width: 50%;
+	float: right;
+	height: 100%;
+	position: relative;
+}
+
+h1{
+	font-size: 48px;
+}
+
+h2{
+	font-size: 32px;
+}
+
+
