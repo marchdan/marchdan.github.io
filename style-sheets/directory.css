@@ -1,0 +1,45 @@
+body{ 
+	background: DeepSkyBlue;
+}
+
+header{
+	padding: 10px 0 50px 10px;
+}
+
+h1{
+	margin: 0;
+}
+
+.directory{
+	padding-left: 20px
+}
+
+.title{
+	width: 90%;
+	float: left;
+	display: inline-block;
+}
+
+.home{
+	width: 9%;
+	float: right;
+	display: inline-block;
+	font-size: 20px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	box-sizing: border-box;
+}
+
+
+
+.direct-cat{
+	margin-left: 10px;
+	margin-bottom: 2px;
+	font-size: 24px;
+}
+
+.direct-link{
+	margin-left: 20px;
+	font-size: 18px;
+}
