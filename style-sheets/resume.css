@@ -4,14 +4,15 @@ body{
 	height: 11in;
 	display: block;
 	font-family: Times;
-	font-size: 11pt;
-	padding: 0.5in;
+	font-size: 10pt;
+	padding: 0.25in 0.5in;
+	margin: 0;
 }
 
 header{
 	width: 100%;
 	height: 10%;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 }
 
 footer{
@@ -27,7 +28,7 @@ footer{
 
 h1{
 	text-align: center;
-	font-size: 12pt;
+	font-size: 11pt;
 	margin-bottom: 2px;
 }
 
@@ -76,8 +77,8 @@ p + ul{
 }
 
 .objective{
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 	width: 100%;
 	height: 5%;
 }
@@ -90,31 +91,31 @@ p + ul{
 
 .projects{
 	width: 100%;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 	float: left;
 	height: 10%;
 }
 
 .coursework{
 	width: 100%;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	height: 35%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	height: 40%;
 }
 
 .experience{
 	width: 100%;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 	height: 30%;
 }
 
 .education{
 	width: 100%;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	height: 10%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	height: 5%;
 }
 
 
