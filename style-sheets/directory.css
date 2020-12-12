@@ -1,7 +1,6 @@
 body{ 
 	background: DeepSkyBlue;
 	margin: 0;
-	width: 99vw;
 }
 
 header{
@@ -37,16 +36,19 @@ h2{
 	color: GhostWhite;
 }
 
+.directory{
+	width: 100%;
+	margin-left: 20px;
+}
+
 .yacs{
 	background-color: #ab2328;
 	margin: 0;
 	width: 100%;
-	padding-left: 20px;
 }
 
 .cconnects{
 	background-color: #057DFF;
 	margin: 0;
 	width: 100%;
-	padding-left: 20px;
 }

@@ -9,6 +9,13 @@ body{
 	margin: 0;
 }
 
+@media only screen and (max-width: 620px){
+	body{
+		width: 95vw;
+		height: 95vh;
+	}
+} 
+
 header{
 	width: 100%;
 	height: 10%;
