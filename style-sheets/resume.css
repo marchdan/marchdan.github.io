@@ -154,11 +154,11 @@ p + ul{
 	.resume{
 		width: 95vw; !important
 		height: 100vmin; !important
-		font-size: 1.5vmin; !important
+		font-size: 1vmin; !important
 	}
 
 	h1, h2{
-		font-size: 1.51vmin; !important
+		font-size: 1.1vmin; !important
 	}
 
 } 
