@@ -133,25 +133,23 @@ p + ul{
 	padding-left: 5px;
 }
 
-@media screen only
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen 
+  and (max-width: 480px) { 
   	body{
-  		width: 95vw; !important
-		height: 95vh; !important
+  		width: 95vw;
+		height: 95vh; 
   	}
 	.resume{
-		width: 95vw; !important
-		height: 95vh; !important
+		width: 95vw;
+		height: 95vh; 
 	}
 
 	html{
-		font-size: 3pt; !important
+		font-size: 1vmin;
 	}
 
 	h1, h2{
-		font-size: 4pt; !important
+		font-size: 1.1vmin;
 	}
 
 } 
