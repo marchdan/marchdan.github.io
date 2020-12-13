@@ -60,15 +60,3 @@ footer{
 	position: relative;
 	height: 40%;
 }
-
-
-@media screen and (min-width: 880px) {
-	body {
-		font-size: 18px;
-	}
-}
-
-@media screen and (max-width: 784px) {
-	.landing-page-info{
-
-}
