@@ -142,6 +142,7 @@ p + ul{
 	.resume{
 		width: 95vw;
 		height: 95vh; 
+		background-color: green;
 	}
 
 	html{
