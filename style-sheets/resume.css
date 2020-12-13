@@ -1,7 +1,9 @@
 
+html{
+	font-size: 10pt;
+}
 body{
 	background-color: beige;
-	text-size-adjust: none;
 }
 
 header{
@@ -26,7 +28,6 @@ footer{
 	height: 11in;
 	display: block;
 	font-family: Times;
-	font-size: 10pt;
 	padding: 0.25in 0.5in;
 	margin: 0 auto;
 	position: relative;
@@ -67,7 +68,6 @@ p + ul{
 	width: 100%;
 	margin: auto;
 	text-align: center;
-	font-size: inherit;
 }
 
 .links{
@@ -77,66 +77,56 @@ p + ul{
 	font-family: Times;
 	margin: inherit;
 	padding: inherit;
-	font-size: inherit;
 }
 
 .address{
 	width: 100%;
 	display: inline-block;
-	font-size: inherit;
 }
 
 .school-address{
 	float: left;
 	text-align: left;
 	display: inline-block;
-	font-size: inherit;
 }
 
 .home-address{
 	float: right;
 	text-align: right;
 	display: inline-block;
-	font-size: inherit;
 }
 
 .objective{
 	width: 100%;
 	margin-top: -10px;
 	display: inline-block;
-	font-size: inherit;
 }
 
 .prog-languages{
 	position: absolute;
 	right: 0.5in;
 	display: block;	
-	font-size: inherit;
 }
 
 .projects{
 	width: 100%;
 	float: left;
 	display: inline-block;
-	font-size: inherit;
 }
 
 .experience{
 	width: 100%;
 	display: inline-block;
-	font-size: inherit;
 }
 
 .coursework{
 	width: 100%;
 	display: inline-block;
-	font-size: inherit;
 }
 
 .education{
 	width: 100%;
 	display: inline-block;
-	font-size: inherit;
 }
 
 .indent{
@@ -149,11 +139,14 @@ p + ul{
   and (-webkit-min-device-pixel-ratio: 3) { 
   	body{
   		width: 95vw; !important
-		height: 100vh; !important
+		height: 95vh; !important
   	}
 	.resume{
 		width: 95vw; !important
-		height: 100vmin; !important
+		height: 95vh; !important
+	}
+
+	html{
 		font-size: 1vmin; !important
 	}
 
