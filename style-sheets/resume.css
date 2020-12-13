@@ -20,6 +20,7 @@ footer{
 .top{
 	width: 100%;
 	margin-bottom: 1px;
+	position: relative;
 }
 
 .resume{
@@ -35,6 +36,7 @@ footer{
 
 .resume-body{
 	margin-top: 1px;
+	position: relative;
 }
 
 h1{
@@ -114,21 +116,25 @@ section{
 .projects{
 	width: 100%;
 	display: block;
+	position: relative;
 }
 
 .experience{
 	width: 100%;
 	display: block;
+	position: relative;
 }
 
 .coursework{
 	width: 100%;
 	display: block;
+	position: relative;
 }
 
 .education{
 	width: 100%;
 	display: block;
+	position: relative;
 }
 
 .indent{
@@ -149,7 +155,7 @@ section{
 @media only screen 
   and (max-width: 490px) { 
   	section{
-		padding: 0.25vh 0;
+		padding: 1vh 0;
 	}
 
   }
