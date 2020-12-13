@@ -145,11 +145,11 @@ p + ul{
 	}
 
 	html{
-		font-size: 3pt;
+		font-size: 1vmin;
 	}
 
 	h1, h2{
-		font-size: 4pt;
+		font-size: 1.1vmin;
 	}
 
 } 
