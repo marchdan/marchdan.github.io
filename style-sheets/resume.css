@@ -60,13 +60,8 @@ ul{
 }
 
 section{
-	padding: 1px 0;
+	padding: 0.2vh 0;
 }
-
-.right{
-	float: right;
-}
-
 
 .email{
 	color: black;
@@ -118,7 +113,6 @@ section{
 
 .projects{
 	width: 100%;
-	float: left;
 	display: block;
 }
 
@@ -154,7 +148,8 @@ section{
 
 @media only screen 
   and (max-width: 490px) { 
-  	.resume{
-  		font-size: 1.25vw
-  	}
+  	section{
+		padding: 0.25vh 0;
+	}
+
   }
