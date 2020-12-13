@@ -67,6 +67,7 @@ p + ul{
 	width: 100%;
 	margin: auto;
 	text-align: center;
+	font-size: inherit;
 }
 
 .links{
@@ -76,58 +77,66 @@ p + ul{
 	font-family: Times;
 	margin: inherit;
 	padding: inherit;
+	font-size: inherit;
 }
 
 .address{
 	width: 100%;
 	display: inline-block;
+	font-size: inherit;
 }
 
 .school-address{
 	float: left;
 	text-align: left;
-	width: 50%;
 	display: inline-block;
+	font-size: inherit;
 }
 
 .home-address{
 	float: right;
 	text-align: right;
-	width: 50%;
 	display: inline-block;
+	font-size: inherit;
 }
 
 .objective{
 	width: 100%;
 	margin-top: -10px;
 	display: inline-block;
+	font-size: inherit;
 }
 
 .prog-languages{
 	position: absolute;
 	right: 0.5in;
 	display: block;	
+	font-size: inherit;
 }
 
 .projects{
 	width: 100%;
 	float: left;
 	display: inline-block;
+	font-size: inherit;
 }
 
 .experience{
 	width: 100%;
 	display: inline-block;
+	font-size: inherit;
 }
 
 .coursework{
 	width: 100%;
 	display: inline-block;
+	font-size: inherit;
 }
 
 .education{
 	width: 100%;
 	display: inline-block;
+	font-size: inherit;
 }
 
 .indent{
