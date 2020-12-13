@@ -31,15 +31,6 @@ footer{
 	position: relative;
 }
 
-@media only screen and (max-device-width: 480px) {
-	.resume{
-		width: 95vw;
-		height: 100vh;
-		font-size: 1.5vh; !important
-	}
-} 
-
-
 .resume-body{
 	height: 85%;
 }
@@ -142,4 +133,13 @@ p + ul{
 	padding-left: 5px;
 }
 
-
+@media screen only
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+	.resume{
+		width: 95vw;
+		height: 100vh;
+		font-size: 1.5vh; !important
+	}
+} 
