@@ -66,6 +66,11 @@ section{
 	padding: 0.2vh 0;
 }
 
+.item{
+	position: relative;
+	padding: 0.25px;
+}
+
 .email{
 	color: black;
 	text-decoration: none;
