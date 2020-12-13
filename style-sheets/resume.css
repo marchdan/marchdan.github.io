@@ -60,6 +60,7 @@ p + ul{
 ul{
 	padding-left: 2em;
 	position: relative;
+	padding-bottom: 2px;
 }
 
 section{
