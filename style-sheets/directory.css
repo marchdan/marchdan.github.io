@@ -1,5 +1,4 @@
 body{ 
-	background: DeepSkyBlue;
 	margin: 0;
 }
 
@@ -29,14 +28,24 @@ h2{
 	font-size: 20px;
 }
 
+.direct-link-resume{
+	margin-left: 12px;
+	font-size: 18px;
+	color: SteelBlue;
+}
 
-.direct-link{
-	margin-left: 10px;
+.direct-link-project{
+	margin-left: 12px;
 	font-size: 18px;
 	color: GhostWhite;
 }
 
-.directory{
+
+.direct-cat{
+	margin-left: 2px;
+}
+
+#directory{
 	width: 100%;
 	margin-left: 20px;
 }
@@ -47,8 +56,24 @@ h2{
 	width: 100%;
 }
 
+#yacs-logo{
+	height: 30px;
+	vertical-align:middle
+
+}
+
 .cconnects{
 	background-color: #057DFF;
 	margin: 0;
 	width: 100%;
+}
+
+body#resumes{
+	background: AntiqueWhite;
+	color: black;
+}
+
+body#projects{
+	background: DeepSkyBlue;
+	color: black;
 }
