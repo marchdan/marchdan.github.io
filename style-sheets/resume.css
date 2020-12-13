@@ -25,7 +25,7 @@ footer{
 	height: 11in;
 	display: block;
 	font-family: Times;
-	font-size: 11pt;
+	font-size: 10pt;
 	padding: 0.25in 0.5in;
 	margin: 0 auto;
 	position: relative;
@@ -137,9 +137,18 @@ p + ul{
   and (min-device-width: 320px) 
   and (max-device-width: 480px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+  	body{
+  		width: 95vw; !important
+		height: 100vh; !important
+  	}
 	.resume{
-		width: 95vw;
-		height: 100vh;
+		width: 95vw; !important
+		height: 100vh; !important
 		font-size: 1.5vh; !important
 	}
+
+	h1, h2{
+		font-size: 1.51vh; !important
+	}
+
 } 
