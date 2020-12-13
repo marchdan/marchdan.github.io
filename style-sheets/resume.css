@@ -139,7 +139,6 @@ section{
 
 .indent{
 	padding-left: 5px;
-	position: relative;
 }
 
 @media only screen 
@@ -150,6 +149,9 @@ section{
 	}
 	body{
 		background-color: white;
+	}
+	.indent{
+		padding-top: 5px;
 	}
 } 
 
