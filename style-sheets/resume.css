@@ -19,7 +19,6 @@ footer{
 
 .top{
 	width: 100%;
-	height: 15%;
 	margin: 5px 0;
 }
 
@@ -35,7 +34,6 @@ footer{
 }
 
 .resume-body{
-	height: 85%;
 	margin: 5px 0;
 }
 
@@ -59,6 +57,10 @@ p + ul{
 
 hr{
 	margin: 2px 0;
+}
+
+ul{
+	padding-left: 2em;
 }
 
 .right{
@@ -140,10 +142,19 @@ hr{
 }
 
 @media only screen 
-  and (max-width: 480px) { 
+  and (max-width: 812px) { 
 	.resume{
-		/*width: 95vw;
-		height: 95vh; */
-		background-color: blue;
+		width: 95vw;
+		height: (95vw*8.5/11);
+	}
+	body{
+		background-color: white;
 	}
 } 
+
+@media only screen 
+  and (max-width: 490px) { 
+  	.resume{
+  		font-size: 1.25vw
+  	}
+  }
