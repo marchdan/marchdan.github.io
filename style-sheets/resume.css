@@ -25,16 +25,17 @@ footer{
 	height: 11in;
 	display: block;
 	font-family: Times;
-	font-size: 10pt;
+	font-size: 11pt;
 	padding: 0.25in 0.5in;
 	margin: 0 auto;
 	position: relative;
 }
 
-@media only screen and (max-width: 620px){
+@media only screen and (max-device-width: 480px) {
 	.resume{
 		width: 95vw;
 		height: 100vh;
+		font-size: 1.5vh; !important
 	}
 } 
 
