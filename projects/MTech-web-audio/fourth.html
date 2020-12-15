@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- Celebratory music generator:
+		*Home - House
+		*Hanukkah - Menorah
+		*Christmas- Tree
+		*Halloween - Pumpkin
+		*Birthday - Cake
+		*Wedding - 
+		*Bar mitzvah - 
+		
+-->
+
+
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<meta name="description" content="Hanukkah Audio">
+    <meta name="author" content="Daniel Ackermans">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fourth of July</title>
+	<link rel="stylesheet" href="./css/styles.css">
+	<style>
+	
+	.boundingbox
+	{
+		margin: auto; 
+		width: 902.5px;
+		height: 475px;
+	}
+	#star-six {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid red;
+      position: relative;
+    }
+	#star-six:after {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid red;
+      position: absolute;
+      content: "";
+      top: 30px;
+      left: -50px;
+    }
+	.flag
+	{
+		width: 100%;
+		height: 100%;
+		border: 3px solid black;
+		margin: auto;
+	}
+	.top
+	{
+		width: 100%;
+		height: 54%;
+	
+	}
+	.bottom
+	{
+		width: 100%;
+		height: 46%;
+	}
+	.box
+	{
+		background-color: #3c3b6e;
+		width: 40%;
+		height: 100%;
+		float: left;
+	}
+	.tStripes
+	{
+		width: 60%;
+		height: 100%;
+		float: right;
+	}
+	.tStripe
+	{
+		width: 100%;
+		height: 14.28%;
+		cursor: pointer;
+	}
+	.bStripe
+	{
+		width: 100%;
+		height: 16.67%;
+		cursor: pointer;
+	}
+	.red
+	{
+		background-color: #b22234;
+	}
+	.white
+	{
+		background-color: #ffffff;
+	}
+	
+	
+	
+	</style>
+  </head>
+  <body style ="margin: 0px;">
+	<header>
+		<h1 style = "color: Blue;"> Fourth of July </h1>
+	</header>
+	<body>
+	<h2> Click a stripe to play its song. <br/> Click the stripe again to stop its song. </h2>
+	<section class = "boundingbox">
+		<section class = "flag">
+			<div class = "top">
+				<div class = "box" id = "bx"></div>
+					<div class = "tStripes">
+						<div class = "tStripe red" id = "s1"></div>
+						<div class = "tStripe white" id = "s2"></div>
+						<div class = "tStripe red" id = "s3"></div>
+						<div class = "tStripe white" id = "s4"></div>
+						<div class = "tStripe red" id = "s5"></div>
+						<div class = "tStripe white" id = "s6"></div>
+						<div class = "tStripe red" id = "s7"></div>
+				</div>
+			</div>
+			<div class = "bottom">
+				<div class = "bStripe white" id = "s8"></div>
+				<div class = "bStripe red" id = "s9"></div>
+				<div class = "bStripe white" id = "s10"></div>
+				<div class = "bStripe red" id = "s11"></div>
+				<div class = "bStripe white" id = "s12"></div>
+				<div class = "bStripe red" id = "s13"></div>
+			</div>
+		</section>
+	</section>
+		<script src="./js/july.js"></script>
+	</body>
+	<footer>
+	<button style = "margin-top: 10px;" class = "home" onclick= "location.href= 'WebAudio.html'"> Home </button>
+	</footer>
+</html>
