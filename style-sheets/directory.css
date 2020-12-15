@@ -1,0 +1,93 @@
+body{ 
+	margin: 0;
+}
+
+header{
+	padding: 10px 0 60px 20px;
+	width: 100%;
+}
+
+h1, h2, h3{
+	margin: 0;
+}
+
+.title{
+	width: 90%;
+	float: left;
+	display: inline-block;
+}
+
+.home{
+	width: 9%;
+	float: right;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.direct-link-resume{
+	margin-left: 12px;
+	font-size: 18px;
+	color: SteelBlue;
+}
+
+.direct-link-project{
+	margin-left: 12px;
+	font-size: 18px;
+	color: GhostWhite;
+}
+
+
+.direct-cat{
+	margin-left: 2px;
+}
+
+#directory{
+	width: 100%;
+	margin-left: 20px;
+}
+
+.team-projects, .personal-projects{
+	margin-left: 10px;
+}
+
+.yacs{
+	background-color: #ab2328;
+	margin: 0;
+	width: 100%;
+}
+
+#yacs-logo{
+	height: 30px;
+	vertical-align:middle
+
+}
+
+.cconnects{
+	background-color: #057DFF;
+	margin: 0;
+	width: 100%;
+}
+
+.web-audio{
+	background-color: #006400;
+	margin: 0;
+	width: 100%;
+}
+
+a.disabled{
+	opacity: 0.5;
+	text-decoration: none;
+	pointer-events: none;
+}
+
+body#resumes{
+	background: AntiqueWhite;
+	color: black;
+}
+
+body#projects{
+	background: DeepSkyBlue;
+	color: black;
+}
+
+}

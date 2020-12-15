@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- Celebratory music generator:
+		*Home - House
+		*Hanukkah - Menorah
+		*Christmas- Tree
+		*Halloween - Pumpkin
+		*Birthday - Cake
+		*Wedding - 
+		*Bar mitzvah - 
+		
+-->
+
+
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<meta name="description" content="Hanukkah Audio">
+    <meta name="author" content="Daniel Ackermans">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Christmas</title>
+	<link rel="stylesheet" href="./css/styles.css">
+	<style>
+	.boundingbox
+	{
+		margin: auto; 
+		width: 960px;
+	}
+	.base
+	{
+		background-color: brown;
+		width: 20%;
+		margin-left: 40%;
+		margin-right: 40%;
+		height: 30px;
+	}
+	.leaves
+	{
+		border-bottom: 50px solid green;
+		border-left: 60px solid transparent;
+		border-right: 60px solid transparent;
+		height: 0;
+		width: 45%;
+		margin: auto;		
+	}
+	.orn
+	{
+		height: 25px;
+		width: 25px;
+		border-radius: 50%;
+		display: inline-block;
+		cursor: pointer;
+	}
+	.red
+	{
+		background-color: red;
+		margin-left: 10%;
+	}
+	.blue
+	{
+		background-color: blue;
+		margin-left: 12%
+	}
+	.orange
+	{
+		background-color: orange;
+		margin-left: 3%
+	}
+	.pink
+	{
+		background-color: pink;
+		margin-left: 16%;
+	}
+	.purple
+	{
+		background-color: purple;
+		margin-left: 7%;
+	}
+	.yellow
+	{
+		background-color: yellow;
+		margin-left: 13%
+	}
+	.blue2
+	{
+		background-color: cyan;
+		margin-left: 20%;
+	}
+	.orange2
+	{
+		background-color: chocolate;
+		margin-left: 11%;
+	}
+	.yellow2
+	{
+		background-color: khaki;
+		margin-left: 12%;
+	}
+	.white
+	{
+		background-color: white;
+		margin-left: 15%;
+	}
+	p
+	{
+		display: inline-block;
+	}
+	
+	
+	
+	
+	</style>
+  </head>
+  <body style ="margin: 0px;">
+	<header>
+		<h1 style = "color: Red;"> Christmas </h1>
+	</header>
+	<body>
+	<h2> Click an ornament to play its song. <br/> Click an ornament of the same color to stop that song. </h2>
+		<section class = "boundingbox">
+			<img src = "./media/star.png" id = "star" style = "width: 15%; height: 15%; margin-left: 42.5%; margin-bottom: -4px;"></img>
+			<section class = "leaves" style= "width: 10%"></section>
+			<section class = "leaves" style= "width: 12.5%">
+				<div class = "orn"></div>
+				<div class = "orn red"></div> 
+			</section>
+			<section class = "leaves" style= "width: 15%">
+			</section>
+			<section class = "leaves" style= "width: 17.5%">
+				<div class = "orn"></div>
+				<div class = "orn orange"></div> 
+				<div class = "orn blue2"></div>
+			</section>
+			<section class = "leaves" style= "width: 20%">
+				<div class = "orn white"></div>
+				<div class = "orn"></div>
+				<div class = "orn"></div>
+				<div class = "orn yellow"></div>
+			</section>
+			<section class = "leaves" style= "width: 22.5%">
+				<div class = "orn pink"></div> 
+				<div class = "orn"></div>
+				<div class = "orn blue"></div>
+				<div class = "orn purple"></div>
+			</section>
+			<section class = "leaves" style= "width: 25%">
+				<div class = "orn"></div>
+				<div class = "orn orange2"></div> 
+				<div class = "orn"></div>
+				<div class = "orn yellow2"></div>
+			</section>
+			<section class = "leaves" style= "width: 27.5%">
+			
+			</section>
+			<section class = "leaves" style= "width: 30%">
+				<div class = "orn purple"></div>
+				<div class = "orn red"></div> 
+				<div class = "orn blue"></div>
+				<div class = "orn yellow"></div>
+			</section>
+			<section class = "leaves" style= "width: 32.5%">
+				<div class = "orn pink"></div> 
+				<div class = "orn orange2"></div>
+				<div class = "orn white"></div>
+			</section>
+			<section class = "leaves" style= "width: 35%">
+			
+			</section>
+			<section class = "leaves" style= "width: 37.5%">
+				<div class = "orn"></div>
+				<div class = "orn orange"></div>
+				<div class = "orn"></div>
+				<div class = "orn yellow2"></div>
+				<div class = "orn blue2"></div>
+			</section>
+			<section class = "leaves" style = "width: 40%"></section>
+			<section class="base"id = "bottom"></section>
+		</section>
+		<script src="./js/chris.js"></script>
+	</body>
+	<footer>
+	<button class = "home" onclick= "location.href= 'WebAudio.html'"> Home </button>
+	</footer>
+</html>

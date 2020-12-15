@@ -1,0 +1,164 @@
+
+html{
+	font-size: 1.5vmin;
+}
+body{
+	background-color: beige;
+}
+
+header{
+	width: 100%;
+	height: 10%;
+}
+
+footer{
+	width: 100%;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.top{
+	width: 100%;
+	margin-bottom: 1px;
+	position: relative;
+}
+
+.resume{
+	background-color: white;
+	width: 8.5in;
+	height: 11in;
+	display: block;
+	font-family: Times;
+	padding: 0.25in 0.5in;
+	margin: 0 auto;
+	position: relative;
+}
+
+.resume-body{
+	margin-top: 1px;
+	position: relative;
+}
+
+h1{
+	text-align: center;
+	font-size: 1.6vmin;
+	margin-bottom: 2px;
+}
+
+h2{
+	font-size: 1.6vmin;
+	padding: 0;
+	margin: 0;
+	margin-bottom: -10px;
+}
+
+p + ul{
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+ul{
+	padding-left: 2em;
+	position: relative;
+	padding-bottom: 2px;
+}
+
+section{
+	padding: 0.2vh 0;
+}
+
+.item{
+	position: relative;
+	padding: 0.25px;
+}
+
+.email{
+	color: black;
+	text-decoration: none;
+	font-style: none;
+	font-family: Times;
+	width: inherit;
+	margin: auto;
+	text-align: center;
+}
+
+.links{
+	color: black;
+	text-decoration: none;
+	font-style: none;
+	font-family: Times;
+	margin: inherit;
+	padding: inherit;
+}
+
+.address{
+	width: inherit;
+	display: inline-block;
+}
+
+.school-address{
+	float: left;
+	text-align: left;
+	display: inline-block;
+}
+
+.home-address{
+	float: right;
+	text-align: right;
+	display: inline-block;
+}
+
+.objective{
+	width: inherit;
+	margin-top: -10px;
+	display: inline-block;
+}
+
+.prog-languages{
+	position: absolute;
+	right: 0.5in;
+	display: block;	
+}
+
+.projects{
+	width: inherit;
+	display: block;
+	position: relative;
+}
+
+.experience{
+	width: inherit;
+	display: block;
+	position: relative;
+}
+
+.coursework{
+	width: inherit;
+	display: block;
+	position: relative;
+}
+
+.education{
+	width: inherit;
+	display: block;
+	position: relative;
+}
+
+.indent{
+	padding-left: 5px;
+	position: relative;
+}
+
+@media only screen 
+  and (max-width: 812px) { 
+	.resume{
+		width: 95vw;
+		height: (95vw*8.5/11);
+	}
+	body{
+		background-color: white;
+	}
+	.indent{
+		padding-top: 5px;
+	}
+} 

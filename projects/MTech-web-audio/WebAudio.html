@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- Celebratory music generator:
+		*Home - House
+		*Hanukkah - Menorah
+		*Christmas- Tree
+		*Halloween - Pumpkin
+		*Birthday - Cake
+		*Wedding - 
+		*Bar mitzvah - 
+		
+-->
+
+
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<meta name="description" content="M&T1 Web Audio project">
+    <meta name="author" content="Daniel Ackermans">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ackermans Web Audio</title>
+	<link rel="stylesheet" href="./css/styles.css">
+	<style>
+		.boundingbox
+		{
+			width: 960px;
+			height: 1080px;
+			margin: auto;
+			
+		}
+		h2.dynamic
+		{
+			text-align: right;
+			width: 50%;
+			float: left;
+		}
+		h2.label
+		{
+			text-align: left;
+			width: 50%;
+			float:right;
+		}
+		nav
+		{
+			font-size: 16px;
+		}
+		p
+		{
+			color: black;
+			font-size: 6px;
+			font-family: Comic Sans MS;
+		}
+		#links
+		{
+			float: center;
+			text-align: center;
+			padding: 10px 0;
+			background-color: tan;
+			margin: auto;
+		}
+		.link
+		{
+			text-align: center;
+		}
+		.top
+		{
+			width: 100%;
+			height: 50%;
+		}
+		.bottom
+		{
+			width: 100%;
+			height: 50%;
+		}
+		.topL
+		{
+			width: 49.5%;
+			height: 99.5%;
+			float: left;
+			margin-right: 0.5%;
+			margin-bottom: 0.5%;
+			background-color: blue;
+			color: white;
+		}
+		.topR
+		{
+			width: 49.5%;
+			height: 99.5%;
+			margin-left: 0.5%;
+			margin-bottom: 0.5%;
+			float: right;
+			background-color: green;
+			color: red;
+		}
+		.bot
+		{
+			width: 100%;
+			height: 100%;
+			margin-top: 0.5%;
+			background-color: red;
+			color: white;
+		}
+	</style>
+  </head>
+  <body style = "background-color: white; margin: 0px;">
+	<header>
+		<h1 id = "hidden"> Holiday Music Generator </h1>
+		<h2> Click on a holiday for a selection of music. <br> There are 4 hidden songs within this website </h2>
+	</header>
+	<!--
+	<nav>
+		<div id = "links">
+			<a href='Hanukkah.html' class = "link">Link1</a>
+			|
+			<a href='Christmas.html' class = "link">Link2</a>
+		</div>
+	</nav>
+	-->
+	<section class = "boundingbox">
+		<div class = "top">
+			<section class = "topL">
+				<a href='Hanukkah.html' style= "color: white;"><h2> Hanukkah </h2></a>
+				<img src = "./media/menor.png" style = "margin: auto; display: inline-block; height: 80%; width: 100%;"></img>
+			</section>
+			<section class = "topR">
+				<a href='Christmas.html' style = "color: red;"><h2> Christmas </h2></a>
+				<img src = "./media/tree.png" style = "margin: auto; display: inline-block; height: 80%; width: 100%;"></img>
+			</section>
+		</div>
+		<div class = "bottom">
+			<section class = "bot">
+				<a href='fourth.html' style = "color: white;"><h2> Fourth of July </h2></a>
+				<img src = "./media/amerBig.png" style = "margin-left: 10%; margin-right: 10%; display: inline-block; height: 80%; width: 80%;"></img>
+			</section>
+		</div>
+	</section>
+	
+	<script src="./js/wa.js"></script>
+  </body>
+</html>
