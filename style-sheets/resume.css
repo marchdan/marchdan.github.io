@@ -161,4 +161,8 @@ section{
 	.indent{
 		padding-top: 5px;
 	}
+	p + ul{
+	margin-top: -5px;
+	margin-bottom: -10px;
+}
 } 
