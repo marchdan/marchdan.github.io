@@ -49,22 +49,18 @@ h2{
 	font-size: 1.6vmin;
 	padding: 0;
 	margin: 0;
-	margin-bottom: -10px;
+	margin-bottom: -15px;
 }
 
 p + ul{
-	margin-top: -10px;
-	margin-bottom: -10px;
+	margin-top: -15px;
+	margin-bottom: -15px;
 }
 
 ul{
 	padding-left: 2em;
 	position: relative;
 	padding-bottom: 2px;
-}
-
-section{
-	padding: 0.2vh 0;
 }
 
 .item{
@@ -115,9 +111,10 @@ section{
 }
 
 .prog-languages{
-	position: absolute;
-	right: 0.5in;
+	position: relative;
+	float: right;
 	display: block;	
+	margin-top: -1.5vh;
 }
 
 .projects{
@@ -149,6 +146,12 @@ section{
 	position: relative;
 }
 
+a.disabled{
+	opacity: 0.5;
+	text-decoration: none;
+	pointer-events: none;
+}
+
 @media only screen 
   and (max-width: 812px) { 
 	.resume{
@@ -157,6 +160,9 @@ section{
 	}
 	body{
 		background-color: white;
+	}
+	h2{
+		margin-bottom: -10px;
 	}
 	.indent{
 		padding-top: 5px;
