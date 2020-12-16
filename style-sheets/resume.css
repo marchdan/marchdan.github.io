@@ -1,6 +1,6 @@
 
 html{
-	font-size: 1.5vmin;
+	font-size: 1.6vmin;
 }
 body{
 	background-color: beige;
@@ -27,7 +27,6 @@ footer{
 	background-color: white;
 	width: 8.5in;
 	height: 11in;
-	display: block;
 	font-family: Times;
 	padding: 0.25in 0.5in;
 	margin: 0 auto;
@@ -35,21 +34,20 @@ footer{
 }
 
 .resume-body{
-	margin-top: 1px;
 	position: relative;
 }
 
 h1{
 	text-align: center;
-	font-size: 1.6vmin;
+	font-size: 1.8vmin;
 	margin-bottom: 2px;
 }
 
 h2{
-	font-size: 1.6vmin;
+	font-size: 1.7vmin;
 	padding: 0;
 	margin: 0;
-	margin-bottom: -15px;
+	margin-bottom: -12px;
 }
 
 p + ul{
@@ -63,9 +61,12 @@ ul{
 	padding-bottom: 2px;
 }
 
+section{
+	padding: 0.1vh 0;
+}
+
 .item{
 	position: relative;
-	padding: 0.25px;
 }
 
 .email{
@@ -106,7 +107,7 @@ ul{
 
 .objective{
 	width: inherit;
-	margin-top: -10px;
+	margin: -10px 0;
 	display: inline-block;
 }
 
@@ -114,7 +115,6 @@ ul{
 	position: relative;
 	float: right;
 	display: block;	
-	margin-top: -1.5vh;
 }
 
 .projects{
@@ -150,6 +150,7 @@ a.disabled{
 	opacity: 0.5;
 	text-decoration: none;
 	pointer-events: none;
+	display: none;
 }
 
 @media only screen 
@@ -172,3 +173,41 @@ a.disabled{
 		margin-bottom: -10px;
 	}
 } 
+
+@media only print {
+	html{
+		width: 8.5in;
+		height: 12in;
+		background-color: white;
+		color: black;
+		font-size: 11pt;
+	}
+	body{
+		width: 100%
+		height: 100%
+		background-color: white;
+		color: black;
+		font-size: 11pt;
+	}
+	.resume{
+		background-color: white;
+		width: 100%
+		height: 100%;
+		display: block;
+	}
+	p + ul{
+		margin-top: -10px;
+	}
+	h1{
+		font-size: 12pt;
+	}
+	h2{
+		font-size: 11pt;
+	}
+	footer{
+		display: none;
+	}
+	section{
+		padding: 0.25em;
+	}
+	}a
