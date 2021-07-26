@@ -13,6 +13,11 @@ footer{
 	width: 100%;
 }
 
+nav{
+	background-color: inherit !important;
+	text-align: center;
+}
+
 .landing-page-info{
 	display: block;
 	position: relative;
@@ -91,6 +96,10 @@ footer{
 	float: auto;
 }
 
+#resumes, #github, #linkedin, #projects{
+	margin: 0 2.5%;
+}
+
 @media only screen 
   and (max-width: 720px) { 
   	/*table tr > *{
@@ -102,8 +111,13 @@ footer{
     body{
     	font-size: 1em;
     }
+
+    #resumes, #github, #linkedin, #projects{
+		margin: 0;
+	}
+
 }
-@media only screen 
+/*@media only screen 
   and (max-height: 575px) {
     .links{
     	display: none;
@@ -112,4 +126,4 @@ footer{
     .links2{
     	display: block;
     }
-}
+}*/
